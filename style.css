@@ -449,7 +449,7 @@ contenant la description des différentes formules proposée*/
     }
 
     .illustration {
-        width: 300%;
+        width: 250%;
     }
 
     .bloc3 {
@@ -701,7 +701,9 @@ contenant la description des différentes formules proposée*/
     /*////////////////////////////ACCUEIL///////////////////////////*/
 
     .accueil {
-        width: 200px;
+        width: max-content;
+        justify-content: left;
+        margin-bottom: -8px;
     }
 
     .bloc {
