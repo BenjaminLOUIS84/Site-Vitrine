@@ -744,8 +744,9 @@ contenant la description des différentes formules proposée*/
     }
 
     .fb,
-    .in {
-        width: 30%;
+    .in,
+    .lk {
+        width: 20%;
         background: #8788BA;
         border-radius: 10px;
         padding: 3px;
@@ -890,9 +891,9 @@ contenant la description des différentes formules proposée*/
     }
 
     .icoFb, 
-    .icoIn {
+    .icoIn,
+    .icoLkd {
         width: 40%;
-        border-radius: 50%;
     }
 
     /*////////////////////////////GET START///////////////////////////*/
@@ -979,13 +980,10 @@ contenant la description des différentes formules proposée*/
     }
 
     .face,
-    .inst {
-        opacity: 50%;
-        width: 50%;
-    }
-
+    .inst,
     .lkd {
-        width: 15%;
+        opacity: 50%;
+        width: 60%;
     }
 
     .logQR {
