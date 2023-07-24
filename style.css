@@ -408,8 +408,9 @@ contenant la description des différentes formules proposée*/
 }
 
 .face,
-.twit {
+.inst {
     opacity: 50%;
+    width: 4%;
 }
 
 .acces {
@@ -840,9 +841,12 @@ contenant la description des différentes formules proposée*/
     }
 
     .team h3 {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
+    .team .text3 {
+        font-size: 1.2em;
+    }
 
     .team {
         gap: 0px;
@@ -865,28 +869,6 @@ contenant la description des différentes formules proposée*/
         padding-top: 30px;
     }
 
-    /* Générer un caroussel glissement AU DOIGT*/
-
-    /* .staff {
-        position: relative;
-        overflow: auto;
-        display: flex;
-        justify-content: left;
-        scroll-snap-type: x mandatory;
-        flex-direction: row;
-    }
-
-    .member {
-        position: sticky;
-        object-fit: cover;
-        flex-shrink: 0;
-        scroll-snap-align: start;
-
-        /* Pour centrer la première image du caroussel et gérer l'espace entre les images*/
-        /*width: 50%;
-        max-width: 1000px;
-    } */
-
     /*////////////////////////////GET START///////////////////////////*/
 
     .getStart h5 {
@@ -901,12 +883,6 @@ contenant la description des différentes formules proposée*/
     
     .log {
         width: 70%;
-    }
-
-    .logQR {
-        width: 20%;
-        margin-top: 20px;
-        filter: invert(1);
     }
 
     /* #background-video {
@@ -976,6 +952,17 @@ contenant la description des différentes formules proposée*/
         padding-bottom: 0px;
     }
 
+    .face,
+    .inst {
+        opacity: 50%;
+        width: 6%;
+    }
+    
+    .logQR {
+        width: 20%;
+        margin-top: 20px;
+        filter: invert(1);
+    }
 }
 
 /*///////////////////////////NORMES///////////////////////////*/
