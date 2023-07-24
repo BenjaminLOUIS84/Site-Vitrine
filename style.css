@@ -702,8 +702,15 @@ contenant la description des différentes formules proposée*/
 
     .accueil {
         width: 200px;
+        padding-right: 0px;
+        padding-top: 0px;
+        margin-bottom: 0px;
     }
 
+    .illustration {
+        display: none;
+    }
+    
     .bloc {
         margin-left: 520px;
     }
