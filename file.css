@@ -1,0 +1,74 @@
+/*  Pour reset les marges*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* wrapper  =   bloc contenant les réglages par défaut pour toute la page*/
+
+.wrapper {
+    
+    background-image: url(images/logo3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+/* nav  =   bloc contenant: h1, nav, menu et a  */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3.7em;
+    color: white;
+}
+
+
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.5em;
+    background: #8bc3f5;
+    background-size: 100px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 6px 6px rgb(0, 0, 0);
+    animation: appear 1s;
+    transition: ease-in-out 0.5s;
+    margin: 5px;
+}
+
+@keyframes appear {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1) 
+    }
+
+}
+
+a:hover {
+    opacity: 70%;
+    color:darkslategray;
+    background: white;
+    font-weight: bold;    
+}
