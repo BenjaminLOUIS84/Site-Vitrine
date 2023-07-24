@@ -245,9 +245,13 @@ sur les divs design, colors et solutions*/
     z-index: 1;
 }
 
-.icoFb,
-.icoTw {
-    width: 40%;
+.icoFb {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.icoIn {
+    width: 50%;
     border-radius: 50%;
 }
 
@@ -407,10 +411,16 @@ contenant la description des différentes formules proposée*/
     gap: 30px;
 }
 
-.face,
+.face {
+    opacity: 50%;
+    width: 80%;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
 .inst {
     opacity: 50%;
-    width: 4%;
+    width: 80%;
 }
 
 .acces {
@@ -962,8 +972,13 @@ contenant la description des différentes formules proposée*/
     .face,
     .inst {
         opacity: 50%;
-        width: 6%;
-        margin-bottom: 20px;
+        width: 50%;
+    }
+
+    .logQR {
+        width: 20%;
+        align-items: center;
+        filter: invert(1);
     }
     
 }
