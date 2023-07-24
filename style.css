@@ -52,8 +52,9 @@ h2 {
 }
 
 .fb,
-.in {
-    width: 30%;
+.in,
+.lk {
+    width: 20%;
 }
 
 a {
@@ -235,24 +236,25 @@ sur les divs design, colors et solutions*/
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    padding-top: 40px;
-    gap: 15px;
+    gap: 10px;
     position: absolute;
     width: 25%;
     transition: 0.5s ease-in-out;
     opacity: 0;
-    left: 150px;
+    left: 140px;
     z-index: 1;
 }
 
 .icoFb {
     width: 100%;
-    border-radius: 50%;
 }
 
 .icoIn {
-    width: 50%;
-    border-radius: 50%;
+    width: 70%;
+}
+
+.icoLkd {
+    width: 70%;
 }
 
 .pcs1 {
@@ -418,7 +420,8 @@ contenant la description des différentes formules proposée*/
     border: 1px solid gray;
 }
 
-.inst {
+.inst,
+.lkd {
     opacity: 50%;
     width: 80%;
 }
@@ -886,6 +889,12 @@ contenant la description des différentes formules proposée*/
         padding-top: 30px;
     }
 
+    .icoFb, 
+    .icoIn {
+        width: 40%;
+        border-radius: 50%;
+    }
+
     /*////////////////////////////GET START///////////////////////////*/
 
     .getStart h5 {
@@ -973,6 +982,10 @@ contenant la description des différentes formules proposée*/
     .inst {
         opacity: 50%;
         width: 50%;
+    }
+
+    .lkd {
+        width: 15%;
     }
 
     .logQR {
