@@ -24,7 +24,7 @@ html {
 
 
 
-/* nav  =   bloc contenant: h2, fb,in,tw et a  */
+/* Navigation */
 
 nav {
     display: flex;
@@ -67,7 +67,7 @@ a:hover {
 }
 
 
-/* accueil */
+/* Accueil */
 
 .accueil {
     display: flex;
@@ -97,9 +97,10 @@ a:hover {
 } */
 
 h1 {
-    font-size: 3em;
-    text-align: justify;
-    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .accueil figure {
@@ -199,6 +200,7 @@ sur les divs design, colors et solutions*/
     text-align: center;
     color: gray;
     margin-bottom: 100px;
+    font-size: 1.2em;
 }
 
 .team {
@@ -270,7 +272,7 @@ sur les divs design, colors et solutions*/
     font-size: 1.6em;
 }
 
-/* getStart   =   bloc contenant: h5, text4 et boutonGetStart */
+/* EFFET PARALLAX */
 /*  Pour mettre une image fixe en arrière plan*/
 
 .getStart {
@@ -473,7 +475,6 @@ contenant la description des différentes formules proposée*/
     }
 
 }
-
 
 /*TABLETTE//////////////////////////////////////////////////////*/
 
@@ -769,9 +770,9 @@ contenant la description des différentes formules proposée*/
     /*//////////////////////////////////////////////////////////////////*/
 
     h1 {
-        font-size: 2em;
+        font-size: 1.7em;
         text-align: center;
-        color: white;
+        color: black;
         margin-bottom: 30px;
         margin-top: 30px;
     }
