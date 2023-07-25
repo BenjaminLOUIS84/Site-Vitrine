@@ -108,6 +108,10 @@ h2 {
     background-repeat: no-repeat;
 }
 
+.illustrationC {
+    display: none;
+}
+
 /* #background-video {
     width: 40%;
 } */
@@ -206,7 +210,7 @@ h4 {
     color: white;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 6px 10px grey;
+    box-shadow: 0px 6px 10px rgba(52, 191, 240, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,8 +245,8 @@ sur les divs design, colors et solutions*/
 
 .text3 {
     text-align: center;
-    color: gray;
-    margin-bottom: 100px;
+    color: rgba(52, 191, 240, 1);
+    margin-bottom: 60px;
     font-size: 1.2em;
 }
 
@@ -278,25 +282,22 @@ sur les divs design, colors et solutions*/
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    gap: 10px;
+    gap: 0px;
     position: absolute;
-    width: 25%;
+    width: 30%;
     transition: 0.5s ease-in-out;
     opacity: 0;
-    left: 140px;
+    left: 170px;
+    top: 40px;
     z-index: 1;
 }
 
-.icoFb {
-    width: 100%;
-}
-
-.icoIn {
-    width: 70%;
-}
-
-.icoLkd {
-    width: 70%;
+.icoFb,
+.icoIn,
+.icoLkd,
+.icoTk {
+    width: 50%;
+    filter: invert();
 }
 
 .pcs1 {
@@ -308,6 +309,7 @@ sur les divs design, colors et solutions*/
 
 .pcs1:hover {
     transform: scale(1.2);
+    transition: ease-in-out 0.5s;
 }
 
 
@@ -316,8 +318,15 @@ sur les divs design, colors et solutions*/
     width: 225px;
 }
 
+.team h1 {
+    font-size: 1.8em;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
 .team h3 {
     font-size: 1.6em;
+    margin-top: 0px;
 }
 
 /* EFFET PARALLAX */
@@ -704,7 +713,7 @@ contenant la description des différentes formules proposée*/
     }
 
     header {
-        height: 90px;
+        height: 100px;
     }
     /* Desactiver cette fonction pour que le menu burger fonctionne*/
 
@@ -740,7 +749,7 @@ contenant la description des différentes formules proposée*/
     /*////////////////////////////ACCUEIL///////////////////////////*/
 
     .accueil {
-        width: 200px;
+        width: 0px;
         padding-right: 0px;
         padding-top: 0px;
         margin-bottom: 0px;
@@ -852,6 +861,10 @@ contenant la description des différentes formules proposée*/
     
     /*////////////////////////////FEATURES///////////////////////////*/
 
+    .illustrationC {
+        display: flex;
+        width: 410px;
+    }
 
     .text1 {
         padding: 20px;
@@ -929,11 +942,11 @@ contenant la description des différentes formules proposée*/
     }
 
     .team figure {
-        width: 230px;
+        width: 300px;
     }
 
     .pcs1 {
-        width: 80%;
+        width: 100%;
     }
 
     .ico3 {
@@ -943,8 +956,10 @@ contenant la description des différentes formules proposée*/
 
     .icoFb, 
     .icoIn,
-    .icoLkd {
+    .icoLkd,
+    .icoTk {
         width: 40%;
+        filter: invert();
     }
 
     /*////////////////////////////GET START///////////////////////////*/
