@@ -15,27 +15,44 @@ html {
 /* wrapper  =   bloc contenant les réglages par défaut pour toute la page*/
 
 .wrapper {
-    background:  rgba(52, 191, 240, 1);
+    /* background:  rgba(52, 191, 240, 1); */
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
+header {
+    background:  rgba(52, 191, 240, 1);
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 90px
+}
 
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.pcs {
+    width: 15%;
+}
 
 /* Navigation */
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     align-items: center;
-    margin: 30px;
-    margin-left: 160px;
+    /* margin: 30px; */
+    /* margin-left: 160px; */
 }
 
 .menu {
-    font-size: 2em;
+    font-size: 1.4em;
+    font-weight: bold;
 }
 .meal {
     border-radius: 10px;
@@ -52,8 +69,14 @@ h2 {
 
 .fb,
 .in,
-.lk {
-    width: 15%;
+.lk,
+.tk{
+    width: 8%;
+}
+
+.social {
+    display: flex;
+    display: inline-table;
 }
 
 a {
@@ -100,10 +123,13 @@ a:hover {
 } */
 
 h1 {
-    font-size: 2em;
+    font-size: 3.7em;
+    font-weight: bold;
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    /* margin-top: 30px; */
+    margin-left: 100px;
+    margin-right: 200px;
 }
 
 h2 {
