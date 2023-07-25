@@ -308,20 +308,6 @@ h5 {
     color: black;
 }
 
-
-/*  Pour mettre un filtre sur une image et enlever celui ci au passage de la souris*/
-
-
-img {
-    filter: grayscale(100%);
-    transition: .5s ease-in-out;
-}
-
-img:hover {
-    filter: grayscale(0%);
-}
-
-
 /* Les Livres */
 
 .price {
@@ -359,12 +345,7 @@ img:hover {
 .log {
     width: 50%;
     align-items: center;
-    opacity: 50%;
-}
-
-.log:hover {
-    opacity: 100%;
-    cursor: pointer;
+    
 }
 
 section .price tr {
