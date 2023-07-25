@@ -17,7 +17,6 @@ html {
 .wrapper {
     background:  rgba(52, 191, 240, 1);
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
 }
