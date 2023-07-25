@@ -15,7 +15,7 @@ html {
 /* wrapper  =   bloc contenant les réglages par défaut pour toute la page*/
 
 .wrapper {
-    background: radial-gradient(#8bc3f5, #1294b8);
+    background:  rgba(52, 191, 240, 1);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -109,7 +109,7 @@ h1 {
 
 h2 {
     font-size: 4em;
-    color: gray;
+    color:  rgba(52, 191, 240, 1);
     padding-bottom: 80px;
 }
 
@@ -172,7 +172,7 @@ h4 {
 }
 
 .feat {
-    background: radial-gradient(#8bc3f5, #1294b8);
+    background:  rgba(52, 191, 240, 1);
     color: white;
     border: none;
     border-radius: 10px;
@@ -379,8 +379,8 @@ tbody {
 }
 
 .boutonJoin {
-    color: #8788BA;
-    border: 1px solid #8788BA;
+    color:  rgba(52, 191, 240, 1);
+    border: 1px solid rgba(52, 191, 240, 1);
     background: none;
     border-radius: 8px;
     font-size: 1.3em;
@@ -393,7 +393,7 @@ tbody {
 contenant la description des différentes formules proposée*/
 
 .boutonJoin:hover {
-    background: #8788BA;
+    background: rgba(52, 191, 240, 1);
     color: white;
     cursor: pointer;
 }
@@ -759,7 +759,7 @@ contenant la description des différentes formules proposée*/
     .in,
     .lk {
         width: 20%;
-        background: #8788BA;
+        background: rgba(52, 191, 240, 1);
         border-radius: 10px;
         padding: 3px;
     }
@@ -813,7 +813,7 @@ contenant la description des différentes formules proposée*/
 
     h2 {
         font-size: 4em;
-        color: gray;
+        color: rgba(52, 191, 240, 1);
         padding-bottom: 40px;
     }
     
