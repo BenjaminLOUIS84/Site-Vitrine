@@ -44,9 +44,13 @@ header {
     width: 5%;
 }
 
-.social {
+.socialA {
     display: flex;
     display: inline-table;
+}
+
+.socialB {
+    display: none;
 }
 
 a {
@@ -57,6 +61,7 @@ a {
 
 a:hover {
     opacity: 50%;
+    transition: ease-in-out 0.5s;
 }
 
 /* Navigation */
@@ -68,7 +73,7 @@ nav {
 }
 
 nav .lk {
-    width: 2%;
+    width: 1.5%;
     filter: invert();
 }
 
@@ -78,7 +83,6 @@ nav .lk {
 }
 .meal {
     border-radius: 10px;
-    margin-right: 20px;
     display: none;
 }
 
@@ -140,11 +144,15 @@ h2 {
     width: 23%;
 }
 
-.illustration {
+.illustrationA {
     width: 320%;
     padding-right: 130px;
     margin-right: 50px;
     filter: grayscale(0%);
+}
+
+.illustrationB {
+    display: none;
 }
 
 .photo {
@@ -695,6 +703,9 @@ contenant la description des différentes formules proposée*/
         line-height: 1.5;
     }
 
+    header {
+        height: 90px;
+    }
     /* Desactiver cette fonction pour que le menu burger fonctionne*/
 
     html {
@@ -735,8 +746,13 @@ contenant la description des différentes formules proposée*/
         margin-bottom: 0px;
     }
 
-    .illustration {
+    .illustrationA {
         display: none;
+    }
+
+    .illustrationB {
+        display: flex;
+        width: 100%;
     }
     
     .bloc {
@@ -760,11 +776,22 @@ contenant la description des différentes formules proposée*/
 
     .fb,
     .in,
-    .lk {
-        width: 20%;
-        background: rgba(52, 191, 240, 1);
-        border-radius: 10px;
-        padding: 3px;
+    .lk,
+    .tk {
+        width: 40%;
+    }
+
+    nav .lk {
+        width: 40%;
+        filter: none;
+    }
+
+    .socialA {
+        display: none;
+    }
+
+    .socialB {
+        display: flex;
     }
 
     a {
@@ -772,11 +799,14 @@ contenant la description des différentes formules proposée*/
         padding: 1px;
     }
 
+    .pcs {
+        display: none;
+    }
+
     nav {
         display: flex;
         flex-direction: row;
         margin: 20px;
-        margin-left: 20px;
         height: 70px;
         background: white;
         border-radius: 10px;
@@ -807,11 +837,11 @@ contenant la description des différentes formules proposée*/
     /*//////////////////////////////////////////////////////////////////*/
 
     h1 {
-        font-size: 1.7em;
+        font-size: 1.5em;
+        font-weight: bold;
         text-align: center;
-        color: black;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 0px;
     }
 
     h2 {
@@ -1020,10 +1050,10 @@ contenant la description des différentes formules proposée*/
 /* Mobile */
 @media (min-width: 0) and (max-width: 768px) {
 
-    h1 {
+    /* h1 {
         font-size: 9vw;
         padding: 2vh 0;
-    }
+    } */
 
     h2 {
         font-size: 7vw;
