@@ -385,7 +385,7 @@ h5 {
 
 /*Effet de carte retournée*/
 
-.blocPrice:left .pack {
+.blocPrice:hover .pack {
     transform: rotateY(180deg);
     transition: ease-in-out 1s;
 }
