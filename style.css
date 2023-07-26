@@ -442,6 +442,15 @@ h5 {
     cursor: pointer;
 }
 
+.log1 {
+    width: 50%;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*CODE COULEUR DES LIVRES*/
+/*Femmes*/
+
 .boutonJoin {
     color: rgba(204, 0, 0, 1);
     border: 1px solid rgba(204, 0, 0, 1);
@@ -453,14 +462,35 @@ h5 {
     transition: .5s ease-in-out;
 }
 
-/* Pour animer et améliorer le design des 3 blocs 
-contenant la description des différentes formules proposée*/
-
 .boutonJoin:hover {
     background: rgba(204, 0, 0, 1);
     color: white;
     cursor: pointer;
 }
+
+/*Foot*/
+.boutonJoinFoot {
+    color: rgba(103, 169, 75, 1);
+    border: 1px solid rgba(103, 169, 75, 1);
+    background: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+    margin-top: 20px;
+    padding: 10px 80px 10px 80px;
+    transition: .5s ease-in-out;
+}
+
+.boutonJoinFoot:hover {
+    background:  rgba(103, 169, 75, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.foot {
+    color:  rgba(103, 169, 75, 1);
+    justify-content: center;
+}
+
 
 /* info */
 
