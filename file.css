@@ -37,7 +37,7 @@ h1 {
 
 h3 {
     font-size: 2em;
-    color: rgba(52, 191, 240, 1);
+    color: rgba(204, 0, 0, 1);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
@@ -51,7 +51,7 @@ a {
     text-decoration: none;
     padding: 2px;
     font-size: 1.5em;
-    background:rgba(52, 191, 240, 1);
+    background:rgba(204, 0, 0, 1);
     background-size: 100px;
     border: none;
     animation: appear 1s;
@@ -77,7 +77,7 @@ nav .lk {
 
 a:hover {
     opacity: 70%;
-    color:rgba(52, 191, 240, 1);
+    color:rgba(204, 0, 0, 1);
     /* background: white; */
     font-weight: bold;    
 }
