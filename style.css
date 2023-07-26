@@ -11,7 +11,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 /* wrapper  =   bloc contenant les réglages par défaut pour toute la page*/
 
 .wrapper {
@@ -312,7 +311,6 @@ sur les divs design, colors et solutions*/
     transition: ease-in-out 0.5s;
 }
 
-
 .team figure {
     justify-content: space-between;
     width: 225px;
@@ -418,15 +416,13 @@ contenant la description des différentes formules proposée*/
     cursor: pointer;
 }
 
-
 /* info */
 
 #info {
     display: flex;
     flex-direction: column;
-    background: black;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    background: rgba(52, 191, 240, 1);
+    padding-top: 20px;
 }
 
 .logQR {
@@ -440,9 +436,13 @@ contenant la description des différentes formules proposée*/
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    gap: 30px;
+    gap: 0px;
+    width: 30%;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
 }
 
 .face {
@@ -460,14 +460,21 @@ contenant la description des différentes formules proposée*/
 
 .acces {
     opacity: 50%;
-    margin-bottom: 30px;
-    margin-top: 30px;
+}
+
+.acces .text3 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.acces a:hover {
+    color: black;
 }
 
 .boutonScroll {
     width: 3%;
     border-radius: 50%;
-    border: 1px solid white;
+    
     position: fixed;
     top: 580px;
     left: 1230px;
@@ -715,6 +722,7 @@ contenant la description des différentes formules proposée*/
     header {
         height: 100px;
     }
+
     /* Desactiver cette fonction pour que le menu burger fonctionne*/
 
     html {
@@ -925,12 +933,17 @@ contenant la description des différentes formules proposée*/
         font-size: 1.5em;
     }
 
+    .team h1 {
+        margin-left: 0px;
+    }
+
     .team h3 {
         font-size: 1.5em;
     }
 
     .team .text3 {
         font-size: 1.2em;
+        margin-bottom: 40px;
     }
 
     .team {
@@ -939,6 +952,11 @@ contenant la description des différentes formules proposée*/
         padding-bottom: 20px;
         padding-left: 0px;
         padding-right: 15px;
+    }
+
+    .ico3 {
+        left: 220px;
+        top: 50px;
     }
 
     .team figure {
@@ -958,7 +976,7 @@ contenant la description des différentes formules proposée*/
     .icoIn,
     .icoLkd,
     .icoTk {
-        width: 40%;
+        width: 30%;
         filter: invert();
     }
 
