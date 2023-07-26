@@ -194,14 +194,14 @@ h4 {
 }
 
 .ico {
-    width: 100%;
-    margin-bottom: 40px;
+    width: 130%;
+    margin-bottom: 50px;
     border-radius: 10px;
 }
 
 .icoR {
     width: 140%;
-    margin-bottom: 90px;
+    margin-bottom: 140px;
     border-radius: 10px;
 }
 
@@ -935,7 +935,11 @@ contenant la description des différentes formules proposée*/
         margin-bottom: 90px;
         border-radius: 10px;
     }
-    
+
+    .ico {
+        width: 80%;
+    }
+
     /*////////////////////////////TEAM///////////////////////////*/
 
     h3 {
