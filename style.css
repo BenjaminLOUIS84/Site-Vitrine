@@ -194,14 +194,15 @@ h4 {
 }
 
 .ico {
-    width: 50%;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 10px;
 }
 
-.icoRadio {
-
-    width: 50%;
-    margin-bottom: 20px;
+.icoR {
+    width: 140%;
+    margin-bottom: 90px;
+    border-radius: 10px;
 }
 
 .feat {
@@ -929,6 +930,12 @@ contenant la description des différentes formules proposée*/
         animation: scroll 20s linear infinite;
     }
 
+    .icoR {
+        width: 100%;
+        margin-bottom: 90px;
+        border-radius: 10px;
+    }
+    
     /*////////////////////////////TEAM///////////////////////////*/
 
     h3 {

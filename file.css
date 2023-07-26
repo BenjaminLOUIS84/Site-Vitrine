@@ -78,6 +78,6 @@ nav .lk {
 a:hover {
     opacity: 70%;
     color:rgba(52, 191, 240, 1);
-    background: white;
+    /* background: white; */
     font-weight: bold;    
 }
