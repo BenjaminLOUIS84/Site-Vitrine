@@ -359,7 +359,7 @@ h5 {
 
 .price {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: whitesmoke;
     justify-content: center;
     align-items: center;
