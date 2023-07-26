@@ -490,6 +490,28 @@ h5 {
     color:  rgba(103, 169, 75, 1);
     justify-content: center;
 }
+/*Politique*/
+.boutonJoinPolitique {
+    color: rgba(1, 2, 253, 1);
+    border: 1px solid rgba(1, 2, 253, 1);
+    background: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+    margin-top: 20px;
+    padding: 10px 80px 10px 80px;
+    transition: .5s ease-in-out;
+}
+
+.boutonJoinPolitique:hover {
+    background:  rgba(1, 2, 253, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.politique {
+    color:  rgba(1, 2, 253, 1);
+    justify-content: center;
+}
 
 
 /* info */
