@@ -1095,7 +1095,7 @@ contenant la description des différentes formules proposée*/
     }
 
     .back {
-        height: 480px;
+        height: 500px;
     }
 
     .boutonJoin {
@@ -1117,6 +1117,7 @@ contenant la description des différentes formules proposée*/
         padding-top: 0px;
         padding-bottom: 0px;
         width: 300%;
+        margin-right: 30px;
     }
 
     .text3 {
