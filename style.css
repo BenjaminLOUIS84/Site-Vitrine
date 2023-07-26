@@ -418,6 +418,12 @@ h5 {
     text-align: justify;
 }
 
+.back h2 {
+
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
 .log {
     width: 100%;
     align-items: center;
@@ -1082,6 +1088,14 @@ contenant la description des différentes formules proposée*/
     }
     .front {
         box-shadow: none;
+    }
+
+    .back h2 {
+        padding-bottom: 20px;
+    }
+
+    .back {
+        height: 480px;
     }
 
     .boutonJoin {
