@@ -423,6 +423,7 @@ contenant la description des différentes formules proposée*/
     flex-direction: column;
     background: rgba(52, 191, 240, 1);
     padding-top: 20px;
+    text-align: left;
 }
 
 .logQR {
@@ -460,6 +461,7 @@ contenant la description des différentes formules proposée*/
 
 .acces {
     opacity: 50%;
+    font-size: 1.2em;
 }
 
 .acces .text3 {
