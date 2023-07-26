@@ -370,9 +370,10 @@ h5 {
     align-items: center;
     padding-top: 250px;
     padding-bottom: 200px;
-    position:relative;
+    /* position:relative; */
     height: 300px;
-    width: 400px;
+    width: 800px;
+
     margin: auto;
 }
 
@@ -389,11 +390,12 @@ h5 {
     justify-content: center;
     align-items: center;
     transition: .5s ease-in-out;
-    position: absolute;
+    /* position: absolute; */
     height: 100%;
     width: 100%;
     transition: all 1s ease;
     transform-style: preserve-3d;
+    margin: 10px;
 }
 
 .front {
