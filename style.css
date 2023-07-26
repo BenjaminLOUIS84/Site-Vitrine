@@ -40,7 +40,7 @@ header {
 .fb,
 .in,
 .lk,
-.tk{
+.tk {
     width: 5%;
 }
 
@@ -83,6 +83,7 @@ nav .lk {
     font-size: 1.2em;
     font-weight: bold;
 }
+
 .meal {
     border-radius: 10px;
     display: none;
@@ -162,6 +163,7 @@ h2 {
 .photo {
     width: 50%;
 }
+
 /* features */
 
 .features {
@@ -207,7 +209,7 @@ h4 {
 }
 
 .feat {
-    background:  rgba(204, 0, 0, 1);
+    background: rgba(204, 0, 0, 1);
     color: white;
     border: none;
     border-radius: 10px;
@@ -341,6 +343,11 @@ sur les divs design, colors et solutions*/
     background-position: top;
 }
 
+.getStart h2 {
+    margin-bottom: -30px;
+    padding-bottom: 100px;
+}
+
 h5 {
     font-size: 2.5em;
     padding-top: 120px;
@@ -367,15 +374,18 @@ h5 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-top: 360px;
-    padding-bottom: 220px;
     /* position:relative; */
     margin: auto;
 }
 
+.livres h3 {
+    color: white;
+    background: rgba(204, 0, 0, 1);
+}
+
 /*Effet de carte retournée*/
 
-.blocPrice:hover .pack {
+.blocPrice:left .pack {
     transform: rotateY(180deg);
     transition: ease-in-out 1s;
 }
@@ -448,7 +458,7 @@ h5 {
 contenant la description des différentes formules proposée*/
 
 .boutonJoin:hover {
-    background:rgba(204, 0, 0, 1);
+    background: rgba(204, 0, 0, 1);
     color: white;
     cursor: pointer;
 }
@@ -458,7 +468,7 @@ contenant la description des différentes formules proposée*/
 #info {
     display: flex;
     flex-direction: column;
-    background:rgba(204, 0, 0, 1);
+    background: rgba(204, 0, 0, 1);
     padding-top: 20px;
     text-align: left;
 }
@@ -513,7 +523,7 @@ contenant la description des différentes formules proposée*/
 .boutonScroll {
     width: 3%;
     border-radius: 50%;
-    
+
     position: fixed;
     top: 580px;
     left: 1230px;
@@ -711,7 +721,7 @@ contenant la description des différentes formules proposée*/
         animation: none;
     }
 
-    
+
     a {
         font-size: 1.5em;
     }
@@ -815,7 +825,7 @@ contenant la description des différentes formules proposée*/
         display: flex;
         width: 100%;
     }
-    
+
     .bloc {
         margin-left: 520px;
     }
@@ -912,7 +922,7 @@ contenant la description des différentes formules proposée*/
         color: rgba(204, 0, 0, 1);
         padding-bottom: 40px;
     }
-    
+
     /*////////////////////////////FEATURES///////////////////////////*/
 
     .illustrationC {
@@ -1029,7 +1039,7 @@ contenant la description des différentes formules proposée*/
         padding-top: 30px;
     }
 
-    .icoFb, 
+    .icoFb,
     .icoIn,
     .icoLkd,
     .icoTk {
@@ -1048,7 +1058,7 @@ contenant la description des différentes formules proposée*/
         padding-right: 30px;
     }
 
-    
+
     .log {
         width: 70%;
     }
@@ -1088,6 +1098,7 @@ contenant la description des différentes formules proposée*/
     .log {
         width: 100%;
     }
+
     .front {
         box-shadow: none;
     }
@@ -1146,7 +1157,7 @@ contenant la description des différentes formules proposée*/
     .icoIn,
     .icoLkd,
     .icoTk {
-        
+
         width: 40%;
     }
 
@@ -1155,7 +1166,7 @@ contenant la description des différentes formules proposée*/
         align-items: center;
         filter: invert(1);
     }
-    
+
 }
 
 /*///////////////////////////NORMES///////////////////////////*/
