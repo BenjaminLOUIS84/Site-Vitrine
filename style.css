@@ -20,6 +20,8 @@ html {
     flex-direction: column;
 }
 
+/*HEADER///////////////////////////////////////////////////////////////////////////////////////////////*/
+
 header {
     background: rgba(204, 0, 0, 1);
     height: 60px;
@@ -30,23 +32,36 @@ header {
 .head {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     /* background: linear-gradient(white, rgba(204, 0, 0, 1)); */
+}
+
+.nom {
+    font-size: 3em;
+    color: rgba(204, 0, 0, 1);
+    font-weight: bold;
+    text-align: center;
+    margin-left: 50px;
+    /* margin-right: 150px; */
 }
 
 .pcs {
     width: 15%;
+    padding: 10px;
 }
 
 .fb,
 .in,
 .lk,
 .tk {
-    width: 5%;
+    width: 10%;
 }
 
 .socialA {
     display: flex;
     display: inline-table;
+    width: 20%;
 }
 
 .socialB {
@@ -131,15 +146,6 @@ h2 {
     z-index: -1;
     opacity: 70%;
 } */
-
-h1 {
-    font-size: 3.7em;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 260px;
-    color: rgba(204, 0, 0, 1);
-}
 
 h2 {
     font-size: 4em;
