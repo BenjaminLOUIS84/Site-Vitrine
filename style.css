@@ -448,6 +448,12 @@ h5 {
     cursor: pointer;
 }
 
+.log2 {
+    width: 70%;
+    align-items: center;
+    cursor: pointer;
+}
+
 /*CODE COULEUR DES LIVRES*/
 /*Femmes*/
 
@@ -510,6 +516,29 @@ h5 {
 
 .politique {
     color:  rgba(1, 2, 253, 1);
+    justify-content: center;
+}
+
+/*Juifs*/
+.boutonJoinJuifs {
+    color: rgba(1, 255, 249, 1);
+    border: 1px solid rgba(1, 255, 249, 1);
+    background: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+    margin-top: 20px;
+    padding: 10px 80px 10px 80px;
+    transition: .5s ease-in-out;
+}
+
+.boutonJoinJuifs:hover {
+    background:  rgba(1, 255, 249, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.juifs {
+    color:  rgba(1, 255, 249, 1);
     justify-content: center;
 }
 
