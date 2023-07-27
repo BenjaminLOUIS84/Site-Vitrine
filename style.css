@@ -455,6 +455,29 @@ h5 {
 }
 
 /*CODE COULEUR DES LIVRES*/
+/*Tue*/
+
+.boutonJoinTue {
+    color: rgba(76, 137, 222, 1);
+    border: 1px solid rgba(76, 137, 222, 1);
+    background: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+    margin-top: 20px;
+    padding: 10px 80px 10px 80px;
+    transition: .5s ease-in-out;
+}
+
+.boutonJoinTue:hover {
+    background: rgba(76, 137, 222, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.tue {
+    color: rgba(76, 137, 222, 1);
+    justify-content: center;
+}
 /*Femmes*/
 
 .boutonJoin {
