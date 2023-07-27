@@ -79,7 +79,7 @@ a:hover {
     transition: ease-in-out 0.5s;
 }
 
-/* Navigation ////////////////////////////////////////////////////////////////////*/
+/* NAVIGATION ////////////////////////////////////////////////////////////////////*/
 
 nav {
     display: flex;
@@ -111,7 +111,7 @@ h2 {
     padding-bottom: 10px;
 }
 
-/* Accueil ////////////////////////////////////////////////////////////////*/
+/* ACCUEIL ////////////////////////////////////////////////////////////////*/
 
 .accueil {
     display: flex;
@@ -164,7 +164,7 @@ h2 {
     width: 50%;
 }
 
-/* features */
+/* ACTIVITES ///////////////////////////////////////////////////////////////////*/
 
 .features {
     background: white;
@@ -183,13 +183,13 @@ h3 {
     flex-direction: row;
     align-items: initial;
     justify-content: space-between;
-    gap: 15px;
-    padding: 30px;
+    gap: 10px;
+    padding: 10px;
     margin-bottom: 100px;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 .text2 {
@@ -197,14 +197,19 @@ h4 {
 }
 
 .ico {
-    width: 130%;
-    margin-bottom: 50px;
+    width: 60%;
+    margin-bottom: 40px;
     border-radius: 10px;
 }
 
-.icoR {
-    width: 140%;
-    margin-bottom: 140px;
+.fou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icoF {
+    width: 20%;
     border-radius: 10px;
 }
 
@@ -217,7 +222,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     margin: 10px;
 }
 
