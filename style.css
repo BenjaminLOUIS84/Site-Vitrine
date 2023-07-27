@@ -498,6 +498,29 @@ h5 {
     cursor: pointer;
 }
 
+/*Juifs*/
+.boutonJoinJuifs {
+    color: rgba(1, 255, 249, 1);
+    border: 1px solid rgba(1, 255, 249, 1);
+    background: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+    margin-top: 20px;
+    padding: 10px 80px 10px 80px;
+    transition: .5s ease-in-out;
+}
+
+.boutonJoinJuifs:hover {
+    background:  rgba(1, 255, 249, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.juifs {
+    color:  rgba(1, 255, 249, 1);
+    justify-content: center;
+}
+
 /*Argents*/
 .boutonJoinArgents {
     color: rgba(153, 153, 153, 1);
@@ -567,10 +590,10 @@ h5 {
     justify-content: center;
 }
 
-/*Juifs*/
-.boutonJoinJuifs {
-    color: rgba(1, 255, 249, 1);
-    border: 1px solid rgba(1, 255, 249, 1);
+/*Inclassable*/
+.boutonJoinInclassable {
+    color:rgba(254, 0, 255, 1);
+    border: 1px solidrgba(254, 0, 255, 1);
     background: none;
     border-radius: 8px;
     font-size: 1.3em;
@@ -579,16 +602,17 @@ h5 {
     transition: .5s ease-in-out;
 }
 
-.boutonJoinJuifs:hover {
-    background:  rgba(1, 255, 249, 1);
+.boutonJoinInclassable:hover {
+    background: rgba(254, 0, 255, 1);
     color: white;
     cursor: pointer;
 }
 
-.juifs {
-    color:  rgba(1, 255, 249, 1);
+.inclassable {
+    color: rgba(254, 0, 255, 1);
     justify-content: center;
 }
+
 
 
 /* info */
