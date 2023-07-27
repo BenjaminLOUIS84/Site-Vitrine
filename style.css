@@ -209,7 +209,7 @@ h4 {
 }
 
 .icoF {
-    width: 20%;
+    width: 30%;
     border-radius: 10px;
 }
 
@@ -327,7 +327,6 @@ sur les divs design, colors et solutions*/
 
 .team h1 {
     font-size: 1.8em;
-    margin-left: 70px;
     margin-top: 40px;
     color: black;
 }
@@ -641,14 +640,14 @@ h5 {
     justify-content: center;
 }
 
-/* info */
+/* INFO///////////////////////////////////////////////////////////////////// */
 
 #info {
     display: flex;
     flex-direction: column;
     background: rgba(204, 0, 0, 1);
     padding-top: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .logQR {
@@ -663,12 +662,13 @@ h5 {
     justify-content: center;
     align-items: center;
     gap: 0px;
-    width: 30%;
+    width: 20%;
 }
 
-.foot {
+.pied {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 
 .face {
@@ -686,12 +686,22 @@ h5 {
 
 .acces {
     opacity: 50%;
-    font-size: 1.2em;
+    font-size: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px   ;
 }
 
 .acces .text3 {
     color: white;
     margin-bottom: 0px;
+}
+
+
+.acces a {
+    font-size: 1.2em;
 }
 
 .acces a:hover {
@@ -701,7 +711,6 @@ h5 {
 .boutonScroll {
     width: 3%;
     border-radius: 50%;
-
     position: fixed;
     top: 580px;
     left: 1230px;
