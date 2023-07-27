@@ -79,7 +79,7 @@ a:hover {
     transition: ease-in-out 0.5s;
 }
 
-/* Navigation */
+/* Navigation ////////////////////////////////////////////////////////////////////*/
 
 nav {
     display: flex;
@@ -111,16 +111,14 @@ h2 {
     padding-bottom: 10px;
 }
 
-/* Accueil */
+/* Accueil ////////////////////////////////////////////////////////////////*/
 
 .accueil {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: left;
-    padding-right: 230px;
     margin-bottom: -5px;
-    padding-top: 0px;
+    padding-top: 600px;
     background: url(/images/collection1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -156,10 +154,6 @@ h2 {
 .accueil figure {
     justify-content: space-between;
     width: 23%;
-}
-
-.illustrationA {
-    width: 225%;
 }
 
 .illustrationB {
