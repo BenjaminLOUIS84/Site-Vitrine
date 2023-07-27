@@ -615,8 +615,8 @@ h5 {
 
 /*Ayant*/
 .boutonJoinAyant {
-    color:rgba(254, 0, 255, 1);
-    border: 1px solid rgba(254, 0, 255, 1);
+    color:rgba(244, 0, 4, 1);
+    border: 1px solid rgba(244, 0, 4, 1);
     background: none;
     border-radius: 8px;
     font-size: 1.3em;
@@ -626,13 +626,13 @@ h5 {
 }
 
 .boutonJoinAyant:hover {
-    background: rgba(254, 0, 255, 1);
+    background: rgba(244, 0, 4, 1);
     color: white;
     cursor: pointer;
 }
 
 .ayant {
-    color: rgba(254, 0, 255, 1);
+    color: rgba(244, 0, 4, 1);
     justify-content: center;
 }
 
