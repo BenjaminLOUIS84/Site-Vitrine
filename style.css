@@ -593,7 +593,7 @@ h5 {
 /*Inclassable*/
 .boutonJoinInclassable {
     color:rgba(254, 0, 255, 1);
-    border: 1px solidrgba(254, 0, 255, 1);
+    border: 1px solid rgba(254, 0, 255, 1);
     background: none;
     border-radius: 8px;
     font-size: 1.3em;
@@ -613,7 +613,28 @@ h5 {
     justify-content: center;
 }
 
+/*Ayant*/
+.boutonJoinAyant {
+    color:rgba(254, 0, 255, 1);
+    border: 1px solid rgba(254, 0, 255, 1);
+    background: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+    margin-top: 20px;
+    padding: 10px 80px 10px 80px;
+    transition: .5s ease-in-out;
+}
 
+.boutonJoinAyant:hover {
+    background: rgba(254, 0, 255, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.ayant {
+    color: rgba(254, 0, 255, 1);
+    justify-content: center;
+}
 
 /* info */
 
