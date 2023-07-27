@@ -359,7 +359,7 @@ h5 {
     color: black;
 }
 
-/* Les Livres */
+/* LES LIVRES/////////////////////////////////////////////////////////// */
 
 .price {
     display: flex;
@@ -399,8 +399,6 @@ h5 {
     align-items: end;
     transition: .5s ease-in-out;
     /* position: absolute; */
-    height: 100%;
-    width: 100%;
     transition: all 1s ease;
     transform-style: preserve-3d;
     margin: 10px;
@@ -857,11 +855,11 @@ h5 {
         padding-bottom: 10px;
     }
 
-    .feat {
+    /* .feat {
         padding: 10px;
         margin: 10px;
         width: 40%;
-    }
+    } */
 
     .feat:hover {
         animation: none;
@@ -1094,7 +1092,7 @@ h5 {
 
     /*//////////////////////////////////////////////////////////////////*/
 
-    h1 {
+    .nom {
         font-size: 3em;
         font-weight: bold;
         text-align: center;
@@ -1122,7 +1120,11 @@ h5 {
     }
 
     .ico {
-        width: 100%;
+        width: 50%;
+    }
+
+    .icoF {
+        display: none;
     }
 
     .bloc3 {
@@ -1163,21 +1165,11 @@ h5 {
         scroll-snap-align: start;
 
         /* Pour centrer la première image du caroussel et gérer l'espace entre les images*/
-        width: 112%;
+        width: 100%;
         max-width: 500px;
 
         /*Pour scroller auto*/
         animation: scroll 20s linear infinite;
-    }
-
-    .icoR {
-        width: 100%;
-        margin-bottom: 90px;
-        border-radius: 10px;
-    }
-
-    .ico {
-        width: 80%;
     }
 
     /*////////////////////////////TEAM///////////////////////////*/
@@ -1321,8 +1313,8 @@ h5 {
     .reseaux {
         padding-top: 0px;
         padding-bottom: 0px;
-        width: 300%;
-        margin-right: 30px;
+        width: 80%;
+        margin-right: 0px;
     }
 
     .text3 {
@@ -1334,10 +1326,11 @@ h5 {
         margin-bottom: 0px;
         margin-top: 0px;
         font-size: 1em;
+        gap: 10px;
     }
 
     .acces a {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     #info {
@@ -1354,7 +1347,7 @@ h5 {
     }
 
     .logQR {
-        width: 40%;
+        width: 20%;
         align-items: center;
         filter: invert(1);
     }
