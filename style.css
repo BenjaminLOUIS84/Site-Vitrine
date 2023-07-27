@@ -478,6 +478,7 @@ h5 {
     color: rgba(76, 137, 222, 1);
     justify-content: center;
 }
+
 /*Femmes*/
 
 .boutonJoin {
@@ -495,6 +496,29 @@ h5 {
     background: rgba(204, 0, 0, 1);
     color: white;
     cursor: pointer;
+}
+
+/*Argents*/
+.boutonJoinArgents {
+    color: rgba(153, 153, 153, 1);
+    border: 1px solid rgba(153, 153, 153, 1);
+    background: none;
+    border-radius: 8px;
+    font-size: 1.3em;
+    margin-top: 20px;
+    padding: 10px 80px 10px 80px;
+    transition: .5s ease-in-out;
+}
+
+.boutonJoinArgents:hover {
+    background:  rgba(153, 153, 153, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.argents {
+    color:  rgba(153, 153, 153, 1);
+    justify-content: center;
 }
 
 /*Foot*/
@@ -519,6 +543,7 @@ h5 {
     color:  rgba(103, 169, 75, 1);
     justify-content: center;
 }
+
 /*Politique*/
 .boutonJoinPolitique {
     color: rgba(1, 2, 253, 1);
