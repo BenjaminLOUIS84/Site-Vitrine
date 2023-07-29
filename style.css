@@ -63,7 +63,11 @@ header {
 .fb,
 .in,
 .lk,
-.tk {
+.tk,
+.yt,
+.tw,
+.sp,
+.pp {
     width: 10%;
 }
 
@@ -1135,7 +1139,12 @@ h5 {
     .fb,
     .in,
     .lk,
-    .tk {
+    .tk,
+    .yt,
+    .tw,
+    .sp,
+    .pp
+     {
         width: 40%;
     }
 
