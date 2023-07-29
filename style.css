@@ -18,7 +18,10 @@ html {
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-family: 'Libre Baskerville', sans-serif;
 }
+
+
 
 /*HEADER///////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -157,10 +160,6 @@ h2 {
 .accueil figure {
     justify-content: space-between;
     width: 23%;
-}
-
-.illustrationB {
-    display: none;
 }
 
 .photo {
@@ -652,6 +651,7 @@ h5 {
     background: rgba(204, 0, 0, 1);
     padding-top: 20px;
     text-align: center;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 .logQR {
