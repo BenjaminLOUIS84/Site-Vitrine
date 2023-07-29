@@ -52,10 +52,12 @@ header {
 .pcs {
     width: 15%;
     padding: 10px;
+    border-radius: 20px;
+    margin-left: 70px;
 }
 
 .illustrationB {
-    width: 25%;
+    width: 20%;
 }
 
 .fb,
