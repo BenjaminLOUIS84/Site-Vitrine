@@ -227,6 +227,12 @@ h4 {
     border-radius: 10px;
 }
 
+.icoA {
+    width: 50%;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
 .fou {
     display: flex;
     flex-direction: column;
