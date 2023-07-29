@@ -310,6 +310,9 @@ sur les divs design, colors et solutions*/
 .icoPhoto:hover .ico3 {
     opacity: 1;
 }
+.icoPhoto:hover .ico4 {
+    opacity: 1;
+}
 
 .ico3 {
     display: flex;
@@ -320,7 +323,21 @@ sur les divs design, colors et solutions*/
     width: 30%;
     transition: 0.5s ease-in-out;
     opacity: 0;
-    left: 170px;
+    left: 155px;
+    top: 40px;
+    z-index: 1;
+}
+
+.ico4 {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 0px;
+    position: absolute;
+    width: 30%;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    left: 5px;
     top: 40px;
     z-index: 1;
 }
@@ -333,8 +350,8 @@ sur les divs design, colors et solutions*/
 .icoYt,
 .icoSp,
 .icoPp {
-    width: 50%;
-    filter: invert();
+    width: 40%;
+    filter: invert(1);
 }
 
 
@@ -804,11 +821,32 @@ h5 {
     border: 1px solid gray;
 }
 
-.inst,
+.reseaux 
+.icoFb,
+.reseaux
+.icoIn,
+.reseaux
+.icoLkd,
+.reseaux
+.icoTk,
+.reseaux
+.icoTw,
+.reseaux
+.icoYt,
+.reseaux
+.icoSp,
+.reseaux
+.icoPp {
+
+    width: 180%;
+    filter: invert();
+}
+
+/* .inst,
 .lkd {
     opacity: 50%;
     width: 80%;
-}
+} */
 
 .acces {
     opacity: 50%;
@@ -824,7 +862,6 @@ h5 {
     color: white;
     margin-bottom: 0px;
 }
-
 
 .acces a {
     font-size: 1.2em;
@@ -1359,6 +1396,11 @@ h5 {
     .ico3 {
         padding-top: 30px;
     }
+    
+    .ico4 {
+        padding-top: 50px;
+        left: -5px;
+    }
 
     .icoFb,
     .icoIn,
@@ -1368,7 +1410,7 @@ h5 {
     .icoTw,
     .icoLSp,
     .icoPp {
-        width: 30%;
+        width: 40%;
         filter: invert();
     }
 
