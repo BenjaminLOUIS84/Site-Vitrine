@@ -85,7 +85,6 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
-    box-shadow: 0px 10px 10px black;
     height: 60px;
 }
 
