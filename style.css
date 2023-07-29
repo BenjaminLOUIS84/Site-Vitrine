@@ -1499,13 +1499,14 @@ h5 {
     .reseaux {
         padding-top: 0px;
         padding-bottom: 0px;
-        width: 80%;
+        width: 50%;
         margin-right: 0px;
+        gap: 15px;
     }
 
     .text3 {
         margin-bottom: 20px;
-        font-size: 0.7em;
+        font-size: 0.5em;
     }
 
     .acces {
