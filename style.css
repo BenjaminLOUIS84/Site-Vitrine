@@ -331,11 +331,20 @@ sur les divs design, colors et solutions*/
     font-size: 1.8em;
     margin-top: 40px;
     color: black;
+    text-align: center;
 }
 
-.team h3 {
+.team .text3 {
+    text-align: center;
+}
+
+.team h3 {1
     font-size: 1.6em;
     margin-top: 0px;
+}
+
+.team p {
+    text-align: justify;
 }
 
 /* EFFET PARALLAX */
@@ -361,7 +370,19 @@ h5 {
     color: black;
 }
 
+.revolution {
+    text-align: center;
+}
+
 /* LES LIVRES/////////////////////////////////////////////////////////// */
+
+.book {
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+    width: 400px;
+    margin: auto;
+}
 
 .price {
     display: flex;
@@ -385,6 +406,7 @@ h5 {
 .livres h3 {
     color: white;
     background: rgba(204, 0, 0, 1);
+    padding: 10px;
 }
 
 /*Effet de carte retournée*/
@@ -486,6 +508,15 @@ h5 {
     justify-content: center;
 }
 
+.acheter {
+    color:  rgba(76, 137, 222, 1);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
 /*Femmes*/
 
 .boutonJoin {
@@ -505,6 +536,15 @@ h5 {
     cursor: pointer;
 }
 
+.acheter {
+    color:  rgba(204, 0, 0, 1);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
 /*Juifs*/
 .boutonJoinJuifs {
     color: rgba(1, 255, 249, 1);
@@ -518,14 +558,23 @@ h5 {
 }
 
 .boutonJoinJuifs:hover {
-    background:  rgba(1, 255, 249, 1);
+    background: rgba(1, 255, 249, 1);
     color: white;
     cursor: pointer;
 }
 
 .juifs {
-    color:  rgba(1, 255, 249, 1);
+    color: rgba(1, 255, 249, 1);
     justify-content: center;
+}
+
+.acheter {
+    color:  rgba(1, 255, 249, 1);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 /*Argents*/
@@ -541,14 +590,23 @@ h5 {
 }
 
 .boutonJoinArgents:hover {
-    background:  rgba(153, 153, 153, 1);
+    background: rgba(153, 153, 153, 1);
     color: white;
     cursor: pointer;
 }
 
 .argents {
-    color:  rgba(153, 153, 153, 1);
+    color: rgba(153, 153, 153, 1);
     justify-content: center;
+}
+
+.acheter {
+    color:  rgba(153, 153, 153, 1);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 /*Foot*/
@@ -564,14 +622,23 @@ h5 {
 }
 
 .boutonJoinFoot:hover {
-    background:  rgba(103, 169, 75, 1);
+    background: rgba(103, 169, 75, 1);
     color: white;
     cursor: pointer;
 }
 
 .foot {
-    color:  rgba(103, 169, 75, 1);
+    color: rgba(103, 169, 75, 1);
     justify-content: center;
+}
+
+.acheter {
+    color:  rgba(103, 169, 75, 1);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 /*Politique*/
@@ -587,19 +654,28 @@ h5 {
 }
 
 .boutonJoinPolitique:hover {
-    background:  rgba(1, 2, 253, 1);
+    background: rgba(1, 2, 253, 1);
     color: white;
     cursor: pointer;
 }
 
 .politique {
-    color:  rgba(1, 2, 253, 1);
+    color: rgba(1, 2, 253, 1);
     justify-content: center;
+}
+
+.acheter {
+    color:  rgba(1, 2, 253, 1);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 /*Inclassable*/
 .boutonJoinInclassable {
-    color:rgba(254, 0, 255, 1);
+    color: rgba(254, 0, 255, 1);
     border: 1px solid rgba(254, 0, 255, 1);
     background: none;
     border-radius: 8px;
@@ -620,9 +696,18 @@ h5 {
     justify-content: center;
 }
 
+.acheter {
+    color:  rgba(254, 0, 255, 1);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
 /*Ayant*/
 .boutonJoinAyant {
-    color:rgba(244, 0, 4, 1);
+    color: rgba(244, 0, 4, 1);
     border: 1px solid rgba(244, 0, 4, 1);
     background: none;
     border-radius: 8px;
@@ -641,6 +726,15 @@ h5 {
 .ayant {
     color: rgba(244, 0, 4, 1);
     justify-content: center;
+}
+
+.acheter {
+    color:  rgba(244, 0, 4, 1);
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 /* INFO///////////////////////////////////////////////////////////////////// */
@@ -695,7 +789,7 @@ h5 {
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 20px   ;
+    gap: 20px;
 }
 
 .acces .text3 {
@@ -1256,7 +1350,7 @@ h5 {
     /* Générer un caroussel glissement AU DOIGT*/
 
     .price {
-        scroll-snap-type: x mandatory; 
+        scroll-snap-type: x mandatory;
         overflow: auto;
     }
 
