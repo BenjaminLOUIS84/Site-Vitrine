@@ -86,6 +86,7 @@ header {
     display: inline-table;
     width: 60%;
 }
+
 .socialA {
     display: flex;
     display: inline-table;
@@ -327,10 +328,15 @@ sur les divs design, colors et solutions*/
 .icoFb,
 .icoIn,
 .icoLkd,
-.icoTk {
+.icoTk,
+.icoTw,
+.icoYt,
+.icoSp,
+.icoPp {
     width: 50%;
     filter: invert();
 }
+
 
 .pcs1 {
     width: 100%;
@@ -531,7 +537,7 @@ h5 {
 }
 
 .acheter0 {
-    color:  rgba(76, 137, 222, 1);
+    color: rgba(76, 137, 222, 1);
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -559,7 +565,7 @@ h5 {
 }
 
 .acheter1 {
-    color:  rgba(204, 0, 0, 1);
+    color: rgba(204, 0, 0, 1);
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -591,7 +597,7 @@ h5 {
 }
 
 .acheter2 {
-    color:  rgba(1, 255, 249, 1);
+    color: rgba(1, 255, 249, 1);
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -623,7 +629,7 @@ h5 {
 }
 
 .acheter3 {
-    color:  rgba(153, 153, 153, 1);
+    color: rgba(153, 153, 153, 1);
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -655,7 +661,7 @@ h5 {
 }
 
 .acheter4 {
-    color:  rgba(103, 169, 75, 1);
+    color: rgba(103, 169, 75, 1);
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -687,7 +693,7 @@ h5 {
 }
 
 .acheter5 {
-    color:  rgba(1, 2, 253, 1);
+    color: rgba(1, 2, 253, 1);
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -719,7 +725,7 @@ h5 {
 }
 
 .acheter6 {
-    color:  rgba(254, 0, 255, 1);
+    color: rgba(254, 0, 255, 1);
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -751,7 +757,7 @@ h5 {
 }
 
 .acheter7 {
-    color:  rgba(244, 0, 4, 1);
+    color: rgba(244, 0, 4, 1);
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -1168,8 +1174,7 @@ h5 {
     .yt,
     .tw,
     .sp,
-    .pp
-     {
+    .pp {
         width: 30%;
     }
 
@@ -1352,14 +1357,17 @@ h5 {
     }
 
     .ico3 {
-
         padding-top: 30px;
     }
 
     .icoFb,
     .icoIn,
     .icoLkd,
-    .icoTk {
+    .icoTk,
+    .icoYt,
+    .icoTw,
+    .icoLSp,
+    .icoPp {
         width: 30%;
         filter: invert();
     }
