@@ -8,16 +8,17 @@
 /* wrapper  =   bloc contenant les réglages par défaut pour toute la page*/
 
 .wrapper {
-    
+
     background-image: url(images/logo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     height: 700px;
 }
+
 
 /* nav  =   bloc contenant: h1, nav, menu et a  */
 
@@ -38,7 +39,7 @@ h1 {
 h3 {
     font-size: 2em;
     color: rgba(204, 0, 0, 1);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #menu {
@@ -51,7 +52,7 @@ a {
     text-decoration: none;
     padding: 2px;
     font-size: 1.5em;
-    background:rgba(204, 0, 0, 1);
+    background: rgba(204, 0, 0, 1);
     background-size: 100px;
     border: none;
     animation: appear 1s;
@@ -69,15 +70,33 @@ nav .lk {
     from {
         transform: scale(0)
     }
+
     to {
-        transform: scale(1) 
+        transform: scale(1)
     }
 
 }
 
 a:hover {
     opacity: 70%;
-    color:rgba(204, 0, 0, 1);
+    color: rgba(204, 0, 0, 1);
     /* background: white; */
-    font-weight: bold;    
+    font-weight: bold;
+}
+
+.mentions {
+    font-family: 'Libre Baskerville', sans-serif;
+    text-align: justify;
+    padding: 10px;
+    padding-top: 520px;
+}
+
+/*TELEPHONE//////////////////////////////////////////////////////*/
+
+@media (min-width: 0) and (max-width: 768px) {
+
+
+    .mentions {
+        padding-top: 280px;
+    }
 }
