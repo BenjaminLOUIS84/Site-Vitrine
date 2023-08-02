@@ -314,6 +314,7 @@ sur les divs design, colors et solutions*/
 .icoPhoto:hover .ico3 {
     opacity: 1;
 }
+
 .icoPhoto:hover .ico4 {
     opacity: 1;
 }
@@ -825,22 +826,14 @@ h5 {
     border: 1px solid gray;
 }
 
-.reseaux 
-.icoFb,
-.reseaux
-.icoIn,
-.reseaux
-.icoLkd,
-.reseaux
-.icoTk,
-.reseaux
-.icoTw,
-.reseaux
-.icoYt,
-.reseaux
-.icoSp,
-.reseaux
-.icoPp {
+.reseaux .icoFb,
+.reseaux .icoIn,
+.reseaux .icoLkd,
+.reseaux .icoTk,
+.reseaux .icoTw,
+.reseaux .icoYt,
+.reseaux .icoSp,
+.reseaux .icoPp {
 
     width: 180%;
     filter: invert();
@@ -1298,7 +1291,7 @@ h5 {
     .icoA {
         width: 50%;
     }
-    
+
     .icoF {
         display: none;
     }
@@ -1392,7 +1385,7 @@ h5 {
     .ico3 {
         padding-top: 30px;
     }
-    
+
     .ico4 {
         padding-top: 50px;
         left: -5px;
