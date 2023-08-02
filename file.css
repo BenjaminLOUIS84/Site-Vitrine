@@ -28,6 +28,7 @@ nav {
     justify-content: end;
     align-items: center;
     line-height: 1;
+    height: 730px;
 }
 
 h1 {
@@ -44,6 +45,10 @@ h3 {
 #menu {
     display: flex;
     flex-direction: column;
+}
+
+#men {
+    height: 0px;
 }
 
 a {
