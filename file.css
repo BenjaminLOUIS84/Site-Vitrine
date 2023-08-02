@@ -27,7 +27,6 @@ nav {
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    height: 930px;
     line-height: 1;
 }
 
@@ -59,6 +58,12 @@ a {
     transition: ease-in-out 0.5s;
     margin: 10px;
     width: 400px;
+}
+
+.ml {
+    color: gray;
+    background: none;
+    font-size: 1em;
 }
 
 nav .lk {
