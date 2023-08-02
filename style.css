@@ -53,6 +53,7 @@ header {
 .haut {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .pcs {
@@ -152,7 +153,6 @@ h2 {
     background: url("images/collection1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
 }
 
 .illustrationC {
