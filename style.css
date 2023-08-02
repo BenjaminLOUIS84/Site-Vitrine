@@ -33,7 +33,7 @@ header {
 .head {
     display: flex;
     align-items: center;
-    height: 170px;
+    height: 200px;
 }
 
 .name {
@@ -50,12 +50,14 @@ header {
     text-align: center;
 }
 
+.haut {
+    display: flex;
+    flex-direction: row;
+}
+
 .pcs {
-    width: 10%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 20px;
-    margin-left: 140px;
+    width: 30%;
+    margin: 40px;
 }
 
 .illustrationB {
@@ -1112,8 +1114,9 @@ h5 {
     .head {
         display: flex;
         flex-direction: column-reverse;
-        height: 400px;
+        height: 310px;
     }
+    
 
     /* Desactiver cette fonction pour que le menu burger fonctionne*/
 
@@ -1224,7 +1227,9 @@ h5 {
     }
 
     .pcs {
-        display: none;
+        display: flex;
+        width: 40%;
+        margin: 20px;
     }
 
     nav {
