@@ -58,18 +58,18 @@ header {
 }
 
 .pcs {
-    width: 30%;
+    width: 50%;
     margin: 40px;
 }
 
 .illustrationB {
     width: 50%;
-    overflow: hidden;
 }
 
 .icones {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .fb,
@@ -86,13 +86,18 @@ header {
 .social {
     display: flex;
     display: inline-table;
-    width: 60%;
+    width: 100%;
 }
 
 .socialA {
     display: flex;
     display: inline-table;
-    width: 60%;
+    width: 100%;
+}
+
+.qR {
+    width: 50%;
+    align-items: center;
 }
 
 .socialB,
