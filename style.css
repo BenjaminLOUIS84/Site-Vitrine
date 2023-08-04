@@ -397,7 +397,7 @@ sur les divs design, colors et solutions*/
 }
 
 .team p {
-    text-align: justify;
+    text-align: center;
 }
 
 /* EFFET PARALLAX */
@@ -421,17 +421,21 @@ h5 {
     color: black;
 }
 
+.getStart h5 {
+    margin-top: 40px;
+}
+
 .revolution {
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: end;
-    gap: 160px;
+    justify-content: center;
 }
 
 .logRevolution {
     width: 20%;
+    padding: 20px;
 }
 
 /* LES LIVRES/////////////////////////////////////////////////////////// */
@@ -523,6 +527,11 @@ h5 {
 
     padding-bottom: 20px;
     font-size: 2em;
+}
+
+h6 {
+    font-size: 0.7em;
+    font-weight: normal;
 }
 
 .log {
@@ -1432,13 +1441,16 @@ h5 {
         width: 70%;
     }
 
+    h5 {
+        margin-top: 20px;
+    }
+
     .revolution {
         text-align: center;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
-        justify-content: end;
-        gap: 0px;
+        justify-content: center;
     }
 
     .logRevolution {

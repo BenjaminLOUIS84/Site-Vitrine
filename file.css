@@ -10,6 +10,7 @@
 .wrapper {
 
     background-image: url(images/logo.jpg);
+    font-family: 'Libre Baskerville', sans-serif;
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
@@ -30,6 +31,25 @@ nav {
     height: 730px;
 }
 
+nav .lk {
+    width: 6%;
+    filter: invert();
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    line-height: 1;
+    height: 100px;
+}
+
+.informations .lk {
+    width: 6%;
+    filter: invert();
+}
+
 h1 {
     font-size: 3.7em;
     color: white;
@@ -38,7 +58,7 @@ h1 {
 h3 {
     font-size: 2em;
     color: rgba(204, 0, 0, 1);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Libre Baskerville', sans-serif;
 }
 
 #menu {
@@ -47,13 +67,13 @@ h3 {
 }
 
 #men {
-    height: 0px;
+    height: 60px;
 }
 
 a {
     color: white;
     text-decoration: none;
-    padding: 2px;
+    padding: 5px;
     font-size: 1.5em;
     background: rgba(204, 0, 0, 1);
     background-size: 100px;
@@ -61,6 +81,7 @@ a {
     animation: appear 1s;
     transition: ease-in-out 0.5s;
     margin: 10px;
+    border-radius: 20px;
     width: 400px;
 }
 
@@ -68,11 +89,6 @@ a {
     color: gray;
     background: none;
     font-size: 1em;
-}
-
-nav .lk {
-    width: 6%;
-    filter: invert();
 }
 
 @keyframes appear {
@@ -88,7 +104,7 @@ nav .lk {
 
 a:hover {
     opacity: 70%;
-    color: rgba(204, 0, 0, 1);
+    color: black;
     /* background: white; */
     font-weight: bold;
 }
