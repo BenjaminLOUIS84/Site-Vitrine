@@ -19,6 +19,30 @@
     height: 700px;
 }
 
+.wrapperEtik {
+
+    background-image: url(images/logo5.jpg);
+    font-family: 'Libre Baskerville', sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
+.wrapperVente {
+
+    background-image: url(images/logo4.bmp);
+    font-family: 'Libre Baskerville', sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+
 
 /* nav  =   bloc contenant: h1, nav, menu et a  */
 
