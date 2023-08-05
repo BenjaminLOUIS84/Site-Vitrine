@@ -41,14 +41,11 @@ header {
     flex-direction: row;
     gap: 10px;
     margin-left: 100px;
+    width: 100%;
 }
 
-.nom {
-    font-size: 4em;
-    color: rgba(204, 0, 0, 1);
-    font-weight: bold;
-    text-align: center;
-    font-family: 'Agency FB', arial;
+.daniel {
+    width: 100%;
 }
 
 .haut {
