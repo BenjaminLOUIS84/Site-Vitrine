@@ -28,6 +28,7 @@ header {
     height: 60px;
     align-items: center;
     display: flex;
+    justify-content: space-around;
 }
 
 .head {
@@ -314,6 +315,7 @@ sur les divs design, colors et solutions*/
     display: flex;
     flex-direction: row;
     position: relative;
+    margin-top: 40px;
 }
 
 .icoPhoto:hover .ico3 {
@@ -399,7 +401,7 @@ sur les divs design, colors et solutions*/
 }
 
 .team p {
-    text-align: justify;
+    text-align: center;
 }
 
 /* EFFET PARALLAX */
@@ -445,7 +447,7 @@ h5 {
 .book {
     display: flex;
     padding: 20px;
-    text-align: justify;
+    text-align: center;
     width: 400px;
     margin: auto;
 }
