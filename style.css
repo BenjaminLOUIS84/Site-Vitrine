@@ -430,7 +430,7 @@ h5 {
 .book {
     display: flex;
     padding: 20px;
-    text-align: center;
+    text-align: justify;
     margin: auto;
     background: white;
 }
@@ -441,7 +441,7 @@ h5 {
 
 .price {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: column;
     background: whitesmoke;
     justify-content: center;
     align-items: center;
@@ -1547,7 +1547,7 @@ h6 {
 
     .price {
         padding-top: 20px;
-        overflow: auto;
+        /* overflow: auto; */
     }
 
     .blocPrice {
@@ -1564,10 +1564,10 @@ h6 {
     }
 
     .photo-hover {
-        width: 69%;
-        margin-left: 59px;
-        bottom: 9px;
-        top: 3px;
+        width: 70%;
+        margin-left: 53px;
+        bottom: 7px;
+        top: 2px;
     }
 
     .inf {
