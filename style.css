@@ -29,7 +29,7 @@ header {
     height: 50px;
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     padding-left: 110px;
 }
 
@@ -49,7 +49,7 @@ header {
 }
 
 .daniel {
-    width: 170%;
+    width: 70%;
 }
 
 .haut {
@@ -282,7 +282,8 @@ sur les divs design, colors et solutions*/
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    padding-right: 40px;
+    padding-right: 90px;
+    padding-bottom: 20px;
 }
 
 /*  Paramètres pour mettre les images et les icônes en ordre et pour zoomer*/
@@ -344,12 +345,11 @@ sur les divs design, colors et solutions*/
 
 
 .pcs1 {
-    width: 60%;
+    width: 50%;
     align-items: center;
-    border-radius: 10%;
     margin: 0 auto;
     padding-top: 30px;
-    margin-left: 90px;
+    margin-left: 120px;
 }
 
 /* .pcs1:hover {
